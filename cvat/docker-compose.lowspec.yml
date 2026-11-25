@@ -1,0 +1,10 @@
+# Máy yếu: giảm tiến trình worker và không chạy Grafana (chỉ dùng cho trang Analytics).
+services:
+  cvat_worker_import:
+    environment:
+      NUMPROCS: 1
+  cvat_worker_export:
+    environment:
+      NUMPROCS: 1
+  cvat_grafana:
+    profiles: ["analytics"]

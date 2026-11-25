@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.JPG binary
+*.docx binary
+*.bin binary
+*.pcd binary
+# Bảng A, phiếu tự kiểm: giữ nguyên byte do report/selfcheck ghi (CRLF), git không đổi xuống dòng
+*.csv -text

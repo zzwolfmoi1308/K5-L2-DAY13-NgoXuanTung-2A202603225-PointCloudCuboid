@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Car",
+    "color": "#ff1744",
+    "type": "cuboid",
+    "attributes": []
+  },
+  {
+    "name": "Truck",
+    "color": "#ff9100",
+    "type": "cuboid",
+    "attributes": []
+  },
+  {
+    "name": "Bus",
+    "color": "#ffea00",
+    "type": "cuboid",
+    "attributes": []
+  },
+  {
+    "name": "Cyclist",
+    "color": "#00e676",
+    "type": "cuboid",
+    "attributes": []
+  },
+  {
+    "name": "Pedestrian",
+    "color": "#2979ff",
+    "type": "cuboid",
+    "attributes": []
+  }
+]

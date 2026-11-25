@@ -1,0 +1,70 @@
+# Dữ liệu VF chỉ ở trên máy bạn (RULES.md): không bao giờ commit dữ liệu, ảnh, file nén, video
+data/*
+!data/README.md
+data-VF/
+Data-VF/
+sequence_*/
+calib.json
+*.bin
+*.pcd
+*.ply
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.tgz
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.mov
+*.pdf
+*.docx
+*.pptx
+!docs/assets/hero.png
+!docs/assets/coordinates.png
+!docs/assets/workflow.png
+!docs/3D_Cuboid_Annotation_Guideline.docx
+
+# submission/: chỉ commit bảng A và phiếu tự kiểm. Các dòng ! dưới đây cho qua file D13-* của mọi mã số,
+# nên trong submission/ chỉ để file của mã bạn (check_submission.py báo LỖI nếu có mã khác).
+*.csv
+submission/*
+!submission/README.md
+!submission/D13-*-bangA.csv
+!submission/D13-*-tukiem.csv
+
+# report/individual/: báo cáo <MSSV>_<HoTen>.md được commit. Ảnh chụp màn hình có ảnh camera thật:
+# không đưa lên repo public, nén bằng `python scripts/lab.py pack` rồi nộp LMS.
+report/individual/images/*
+!report/individual/images/.gitkeep
+
+# Phiếu hồ sơ lỗi coach phát, kể cả bản tải lần hai "D13-<MSSV>-hoso (1).md" hay bản đã đổi tên: chỉ dành cho bạn.
+# Không chặn "hoso" đứng trước chữ n, để báo cáo của người tên "Hồ Sơn" (…_NguyenHoSon.md) vẫn được commit.
+*hoso
+*hoso[!n]*
+hoso/
+
+# Thư mục làm việc: ảnh xem trước, file zip, bảng A của vòng hiệu chuẩn
+work/
+nop/
+xem/
+
+# Mật khẩu, môi trường
+.env
+.env*
+*.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db

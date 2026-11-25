@@ -1,0 +1,5 @@
+-r cvat_lab/requirements.txt
+# Chi dung chu khong dau trong file nay: pip doc file theo bang ma cua may (Windows: cp1252/cp1258).
+# Ghim cvat-sdk 2.82-2.83 cho buoi hoc (khop CVAT 2.82/2.83 cua lop). Cac ban nay va Pillow 13 can Python 3.11 tro len:
+# loi o dong nay nghia la .venv dang dung Python cu, xem docs/COMMON_ERRORS.md muc 1.
+cvat-sdk>=2.82,<2.84

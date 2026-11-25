@@ -1,0 +1,7 @@
+{
+ "cvat_lab/vf_common.py": "9cee6e34472b1c7498e443401fa5f767eb452c53",
+ "cvat_lab/vf_cvat.py": "a8a4501ba5acc86c48b5645f83fc5c9c0e80688f",
+ "cvat_lab/vf_qa.py": "72292c507662dea0258636399c83ff2e0abcc2c6",
+ "scripts/lab.py": "8b9842afec7c722fa5693c1860b1f8e7e7f4cf77",
+ "scripts/check_submission.py": "ecaa5e847a686522bb95527fe1a39ff1fef2d416"
+}
